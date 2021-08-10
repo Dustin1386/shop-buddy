@@ -5,6 +5,7 @@ export const Header = () => {
   return (
     <View style={styles.header}>
       <Text style={styles.text}>Hello</Text>
+  
     </View>
   );
 };
@@ -18,7 +19,11 @@ const styles = StyleSheet.create({
   text: {
       color: '#fff',
       fontSize: 23,
-      textAlign: 'center'
+      textAlign: 'left'
+  },
+  ul:{
+    margin: 0,
+    padding: 0
   }
 });
 
